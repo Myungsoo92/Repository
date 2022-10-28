@@ -1,7 +1,3 @@
-# Repository
-개인적으로 사용하는 정보 저장용도
-
-
 ## Window
 - Windows 정품 인증 워터 마크 없애기(cmd)
 slmgr /rearm
