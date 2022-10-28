@@ -144,21 +144,17 @@ str.padStart(자리수, 채울문자), str.padEnd(자리수, 채울문자)
 if (window.attachEvent) {
     /*IE and Opera*/
     window.attachEvent("onunload", function() {
-	
     });
 } else if (document.addEventListener) {
     /*Chrome, FireFox*/
     window.onbeforeunload = function() {
-	
     };
     /*IE 6, Mobile Safari, Chrome Mobile*/
     window.addEventListener("unload", function() {
-	
     }, false);
 } else {
     /*etc*/
     document.addEventListener("unload", function() {
-	
     }, false);
 }
 
