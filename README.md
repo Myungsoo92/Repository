@@ -2,7 +2,7 @@
 개인적으로 사용하는 정보 저장용도
 
 
-#Window
+1.Window
 -- Windows 정품 인증 워터 마크 없애기(cmd)
 slmgr /rearm
 
@@ -12,7 +12,9 @@ tasklist /FI "SERVICES eq 서비스이름"
 -- 서비스 강제 종료(cmd)
 taskkill /F /FI "SERVICES eq 서비스이름"
 
-#Oracle DBMS
+
+
+2.Oracle DBMS
 -- ORACLE DB export / import
 exp swweb/swweb@203.236.231.35:1521 file='D:\dump\swweb_DB_220610.dmp' log='D:\dump\swweb_DB_220610.log' OWNER='swweb' full=y
 exp userid=system/root@203.236.231.35:1521 file='D:\dump\full.dmp' full=y log=D:\dump\full_log01.log
@@ -67,7 +69,7 @@ LENGTH(A.G2_ALIAS)=LENGTHB(A.G2_ALIAS) -> 한글포함된것 제외
 SELECT * FROM TABLE_NAME WHERE NOT REGEXP_LIKE(COLUMN_NAME, '[가-힣]'); -> 한글 들어간것 제외
 
 
-#Mysql
+3.Mysql
 -- mysql 캐릭터셋 확인
 SELECT SCHEMA_NAME, default_character_set_name, DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA;
 
@@ -90,9 +92,11 @@ mysqldump dbname -uuser -ppassword -hhost > dir\filename.sql
 mysql -u user -p password (-database=dbname) < dir\filename.sql
 
 -- mysql now()
-DATE_FORMAT(NOW(), '%Y%m%d%H%i%s')
+DATE_FORMAT(NOW(), '%Y%m%d%H%i%s')3.
 
-#Javascript
+
+
+4.Javascript
 --JSP 엔터 이벤트 처리
 onKeypress="javascript:if(event.keyCode==13) {}"
 
@@ -166,7 +170,8 @@ ex) opener.parent.location.reload();
 $("#popup").css('top', Math.max(0, ($(window).height() / 2) + $(window).scrollTop()) + 'px');
 
 
-#Tomcat
+
+5.Tomcat
 -- tomcat context 추가 (server.xml)
 <Context path="/path" docBase="docBase" disableURLRewriting="true" reloadable="false/true"/>
 
