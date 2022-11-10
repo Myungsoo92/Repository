@@ -224,7 +224,7 @@ ex) opener.parent.location.reload();
 
 
 ## PowerPoint
-- 특정 코드 찾기
+- 특정 폰트 찾기(해당 페이지 나타내고 이동)
 ```Option Explicit
 Dim myShp As Shape
 Dim slide_num As Long
