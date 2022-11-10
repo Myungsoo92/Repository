@@ -224,7 +224,7 @@ ex) opener.parent.location.reload();
 
 
 ## PowerPoint
-- 특정 폰트 찾기(해당 페이지 나타내고 이동, [참조]([https://myhappyman.tistory.com/253](https://ruahneuma.tistory.com/entry/%EA%B8%80%EA%BC%B4%ED%8F%B0%ED%8A%B8%EC%9D%B4-%EC%84%A4%EC%B9%98%EB%90%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%B0%BE%EA%B8%B0-%EB%A7%A4%ED%81%AC%EB%A1%9C)))
+- 특정 폰트 찾기(해당 페이지 나타내고 이동, [참조](https://ruahneuma.tistory.com/entry/%EA%B8%80%EA%BC%B4%ED%8F%B0%ED%8A%B8%EC%9D%B4-%EC%84%A4%EC%B9%98%EB%90%9C-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EC%B0%BE%EA%B8%B0-%EB%A7%A4%ED%81%AC%EB%A1%9C))
 ```Option Explicit
 Dim myShp As Shape
 Dim slide_num As Long
